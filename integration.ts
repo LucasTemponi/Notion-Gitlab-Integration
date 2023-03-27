@@ -31,7 +31,7 @@ const query = {
 async function main() {
   const { Client } = require("@notionhq/client");
   const notion = new Client({
-    auth: `secret_uGAFvHVNAGgxtUwuyRHI4mT2vcuZN3l2q0uSH6hLpAc`,
+    auth: ``,
   });
 
   axios(`https://api.notion.com/v1/search`, {
@@ -54,7 +54,7 @@ async function main() {
   //     `https://git.rarolabs.com.br/api/graphql`,
   //     {
   //         headers :{
-  //             Authorization:`Bearer 3kzJvLXpXNgZg5xiuUT9`
+  //             Authorization:`Bearer `
   //         },
   //         data: query
   //     }
